@@ -1,0 +1,5 @@
+How to run:
+1. Put files into preferred terminal of choice.
+2. gcc producer.c -pthread -lrt -o producer
+3. gcc consumer.c -pthread -lrt -o consumer
+4. ./producer & ./consumer &
